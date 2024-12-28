@@ -131,11 +131,12 @@ displayQuiz.forEach((val, index) => {
   quizAnswerParaElement.className = "question";
   quizAnswerParaElement.innerHTML = `${index + 1}. ${val.question}`;
   const myAnswerElement = document.createElement('p');
-  myAnswerElement.className = `my_answer my_answer${index + 1}`;
+  myAnswerElement.className = `my_answer my_answerq${index + 1}`;
   myAnswerElement.innerHTML = `Your Answer: `;
   const correctAnswerElement = document.createElement('p');
   correctAnswerElement.className = "correct_answer";
   correctAnswerElement.innerHTML = `Correct Answer: ${val.correctAnswer}`;
+  obj[`q${index + 1}`] = val.correctAnswer;
   
   quizAnswerElement.appendChild(quizAnswerParaElement);
   quizAnswerElement.appendChild(myAnswerElement);
@@ -196,17 +197,11 @@ formElement.addEventListener("submit", (event) => {
   answerIndex = 1;
   
   for (let [key, value] of quizData.entries()) {
-    obj[key] = value;
-    
-    const myAnswerElement = document.querySelector(`.my_answer${answerIndex}`);
-    myAnswerElement.innerHTML = `Your Answer: ${value}`;
-    
-    const correctAnswer = displayQuiz[answerIndex - 1].correctAnswer;
-    if (value === correctAnswer) {
+    if (value === obj[key]) {
       score++;
     }
-    
-    answerIndex++;
+    const myAnswerElement = document.querySelector(`.my_answer${key}`);
+    myAnswerElement.innerHTML = `Your Answe ${value}`;
   }
   
   const quizScoreElement = document.querySelector('.quiz_score');
