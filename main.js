@@ -1,185 +1,214 @@
 const cricketQuiz = [
   {
-    question: "Who has the most centuries in international cricket?",
-    options: ["Sachin Tendulkar", "Virat Kohli", "Ricky Ponting", "Jacques Kallis"],
+    question: "Who won the ICC Cricket World Cup 2019?",
+    options: ["India", "Australia", "England", "New Zealand"],
+    correctAnswer: "England"
+  },
+  {
+    question: "Who is known as the 'Master Blaster' of cricket?",
+    options: ["Ricky Ponting", "Sachin Tendulkar", "Brian Lara", "Virat Kohli"],
     correctAnswer: "Sachin Tendulkar"
   },
   {
-    question: "Which country won the first ICC Cricket World Cup?",
-    options: ["Australia", "England", "West Indies", "India"],
-    correctAnswer: "West Indies"
-  },
-  {
-    question: "Who is the 'Best in Cricket'?",
-    options: ["Sachin Tendulkar", "Virat Kohli", "MS Dhoni", "Don Bradman"],
-    correctAnswer: "Sachin Tendulkar"
-  },
-  {
-    question: "What is the highest individual score in ODI cricket?",
-    options: ["264", "200", "237", "275"],
-    correctAnswer: "264"
-  },
-  {
-    question: "Which bowler has taken the most wickets in Test cricket?",
-    options: ["Muttiah Muralitharan", "Shane Warne", "James Anderson", "Anil Kumble"],
+    question: "Which bowler has the most wickets in Test cricket?",
+    options: ["Shane Warne", "Muttiah Muralitharan", "James Anderson", "Anil Kumble"],
     correctAnswer: "Muttiah Muralitharan"
   },
   {
-    question: "Who is the only cricketer to score 100 centuries in international cricket?",
-    options: ["Ricky Ponting", "Virat Kohli", "Sachin Tendulkar", "Jacques Kallis"],
-    correctAnswer: "Sachin Tendulkar"
+    question: "How many players are on a cricket team?",
+    options: ["9", "10", "11", "12"],
+    correctAnswer: "11"
   },
   {
-    question: "Which country has won the most ICC Cricket World Cups?",
-    options: ["India", "Australia", "West Indies", "England"],
-    correctAnswer: "Australia"
+    question: "Which country hosted the first-ever Cricket World Cup in 1975?",
+    options: ["India", "Australia", "England", "West Indies"],
+    correctAnswer: "England"
   },
   {
-    question: "Who was the captain of the Indian cricket team during the 1983 World Cup?",
-    options: ["Kapil Dev", "Sunil Gavaskar", "Mohinder Amarnath", "Ravi Shastri"],
-    correctAnswer: "Kapil Dev"
-  },
-  {
-    question: "Who holds the record for the fastest century in ODI cricket?",
-    options: ["AB de Villiers", "Chris Gayle", "Shahid Afridi", "Virat Kohli"],
-    correctAnswer: "AB de Villiers"
-  },
-  {
-    question: "Which cricketer has hit the most sixes in international cricket?",
-    options: ["Chris Gayle", "Shahid Afridi", "Rohit Sharma", "MS Dhoni"],
-    correctAnswer: "Chris Gayle"
-  },
-  {
-    question: "Who was the first batsman to score a double century in ODI cricket?",
+    question: "Who scored the first-ever double century in ODI cricket?",
     options: ["Virender Sehwag", "Sachin Tendulkar", "Rohit Sharma", "Chris Gayle"],
     correctAnswer: "Sachin Tendulkar"
   },
   {
-    question: "Which player is known as 'Captain Cool'?",
-    options: ["Ricky Ponting", "MS Dhoni", "Virat Kohli", "Kane Williamson"],
-    correctAnswer: "MS Dhoni"
+    question: "Which Indian bowler is nicknamed 'The Turbanator'?",
+    options: ["Ravindra Jadeja", "Ravichandran Ashwin", "Harbhajan Singh", "Zaheer Khan"],
+    correctAnswer: "Harbhajan Singh"
   },
   {
-    question: "What is the nickname of Glenn McGrath?",
-    options: ["Pigeon", "Whispering Death", "Dizzy", "The Wall"],
-    correctAnswer: "Pigeon"
+    question: "Who is the only player to score 100 international centuries?",
+    options: ["Jacques Kallis", "Virat Kohli", "Sachin Tendulkar", "Steve Smith"],
+    correctAnswer: "Sachin Tendulkar"
   },
   {
-    question: "Which cricketer is known as the 'Sultan of Swing'?",
-    options: ["Wasim Akram", "James Anderson", "Glenn McGrath", "Zaheer Khan"],
-    correctAnswer: "Wasim Akram"
-  },
-  {
-    question: "Who holds the record for the most runs in a single Test match?",
-    options: ["Brian Lara", "Virender Sehwag", "Don Bradman", "Alastair Cook"],
-    correctAnswer: "Brian Lara"
-  },
-  {
-    question: "Which team won the inaugural T20 World Cup in 2007?",
+    question: "Which country won the first ICC T20 World Cup in 2007?",
     options: ["India", "Pakistan", "Australia", "South Africa"],
     correctAnswer: "India"
   },
   {
-    question: "Who holds the record for the fastest delivery bowled in cricket?",
-    options: ["Brett Lee", "Shoaib Akhtar", "Jeff Thomson", "Shaun Tait"],
-    correctAnswer: "Shoaib Akhtar"
+    question: "What does LBW stand for in cricket?",
+    options: ["Leg Before Wicket", "Long Ball Wide", "Leg By Wicket", "Left Bowled Wide"],
+    correctAnswer: "Leg Before Wicket"
   },
   {
-    question: "Which cricketer has the highest batting average in Test cricket?",
-    options: ["Steve Smith", "Don Bradman", "Jacques Kallis", "Kumar Sangakkara"],
-    correctAnswer: "Don Bradman"
+    question: "Who is the highest run-scorer in ODI cricket history?",
+    options: ["Virat Kohli", "Sachin Tendulkar", "Kumar Sangakkara", "Ricky Ponting"],
+    correctAnswer: "Sachin Tendulkar"
   },
   {
-    question: "Who hit six sixes in an over in the T20 World Cup 2007?",
-    options: ["Chris Gayle", "Yuvraj Singh", "Kieron Pollard", "Shahid Afridi"],
+    question: "Which cricketer is famous for the 'Helicopter Shot'?",
+    options: ["MS Dhoni", "Virat Kohli", "Chris Gayle", "AB de Villiers"],
+    correctAnswer: "MS Dhoni"
+  },
+  {
+    question: "What is the maximum number of overs allowed per bowler in an ODI match?",
+    options: ["8", "10", "12", "15"],
+    correctAnswer: "10"
+  },
+  {
+    question: "Which team has won the most ICC Cricket World Cups?",
+    options: ["India", "Australia", "West Indies", "England"],
+    correctAnswer: "Australia"
+  },
+  {
+    question: "Who hit six sixes in an over during a T20 International match?",
+    options: ["Chris Gayle", "Rohit Sharma", "Yuvraj Singh", "David Warner"],
     correctAnswer: "Yuvraj Singh"
   },
   {
-    question: "Who was the first bowler to take 10 wickets in a single Test inning?",
-    options: ["Jim Laker", "Anil Kumble", "Muttiah Muralitharan", "Shane Warne"],
-    correctAnswer: "Jim Laker"
+    question: "In which format of cricket is the term 'Powerplay' used?",
+    options: ["Test", "ODI", "T20", "Both ODI and T20"],
+    correctAnswer: "Both ODI and T20"
+  },
+  {
+    question: "Which player has the highest individual score in an ODI match?",
+    options: ["Sachin Tendulkar", "Rohit Sharma", "Martin Guptill", "Chris Gayle"],
+    correctAnswer: "Rohit Sharma"
+  },
+  {
+    question: "Who was the first Indian to take a hat-trick in Test cricket?",
+    options: ["Anil Kumble", "Harbhajan Singh", "Kapil Dev", "Javagal Srinath"],
+    correctAnswer: "Harbhajan Singh"
+  },
+  {
+    question: "What is the term for a ball delivered with no foot behind the crease?",
+    options: ["Wide ball", "No ball", "Dead ball", "Spin ball"],
+    correctAnswer: "No ball"
+  },
+  {
+    question: "Which cricket ground is known as the 'Mecca of Cricket'?",
+    options: ["Eden Gardens", "Melbourne Cricket Ground", "Lord's", "Sydney Cricket Ground"],
+    correctAnswer: "Lord's"
   }
 ];
 
-const form = document.querySelector('form');
-let originalAnswer = {};
-
-function generateRandomQuestion() {
-  const randomQuestions = new Set([]);
-  while (randomQuestions.size !== 5) {
-    const cricketQuizIndex = Math.floor(Math.random() * cricketQuiz.length);
-    const selectedQuiz = cricketQuiz[cricketQuizIndex];
-    randomQuestions.add(selectedQuiz);
+const formElement = document.querySelector('form');
+const quizzesElement = document.querySelector('.quizzes');
+const quizAnswersElement = document.querySelector('.quiz_answers');
+const data = new Set([]);
+function randomQuiz() {
+  
+  while (data.size !== 5) {
+    const index = Math.floor(Math.random() * cricketQuiz.length);
+    const selectedQuiz = cricketQuiz[index];
+    data.add(selectedQuiz);
   }
   
-  return [...randomQuestions];
+  return [...data];
 }
 
-const displayQuiz = generateRandomQuestion();
+const displayQuiz = randomQuiz();
+const obj = {};
 
-displayQuiz.forEach((val, i) => {
+displayQuiz.forEach((val, index) => {
   const quizElement = document.createElement('div');
-  quizElement.className = "quiz"
-  const paraElement = document.createElement('p');
-  paraElement.innerHTML = `${i+1}: ${val.question}`;
-  quizElement.appendChild(paraElement);
+  quizElement.className = "quiz";
+  const quizParaElement = document.createElement('p');
+  quizParaElement.innerHTML = `${index + 1}. ${val.question}`;
+  quizElement.appendChild(quizParaElement);
+  const quizAnswerElement = document.createElement('div');
+  quizAnswerElement.className = `quiz_answer quiz_answer${index}`;
+  const quizAnswerParaElement = document.createElement('p');
+  quizAnswerParaElement.className = "question";
+  quizAnswerParaElement.innerHTML = `${index + 1}. ${val.question}`;
+  const myAnswerElement = document.createElement('p');
+  myAnswerElement.className = `my_answer my_answer${index + 1}`;
+  myAnswerElement.innerHTML = `Your Answer: `;
+  const correctAnswerElement = document.createElement('p');
+  correctAnswerElement.className = "correct_answer";
+  correctAnswerElement.innerHTML = `Correct Answer: ${val.correctAnswer}`;
   
-  originalAnswer[`q${i+1}`] = val.correctAnswer;
+  quizAnswerElement.appendChild(quizAnswerParaElement);
+  quizAnswerElement.appendChild(myAnswerElement);
+  quizAnswerElement.appendChild(correctAnswerElement);
+  quizAnswersElement.appendChild(quizAnswerElement);
   
-  val.options.forEach((data,index) => {
-    const optionElement = document.createElement('div');
-    optionElement.className = "option";
-    const inputElement = document.createElement('input');
-    inputElement.type = "radio";
-    inputElement.setAttribute("required", "true");
-    inputElement.name = `q${i+1}`;
-    inputElement.id = `q${i+1}_option${index+1}`;
-    inputElement.value = data;
-    optionElement.appendChild(inputElement);
+  val.options.forEach((opt, i) => {
+    const quizOptionElement = document.createElement('div');
+    quizOptionElement.className = "quiz_option";
+    const quizInputElement = document.createElement('input');
+    quizInputElement.type = "radio";
+    quizInputElement.name = `q${index + 1}`
+    quizInputElement.id = `q${index + 1}_opton${i + 1}`;
+    quizInputElement.setAttribute("value", opt);
     
-    const labelElement = document.createElement('label');
-    labelElement.setAttribute('for', inputElement.id)
-    labelElement.innerHTML = data;
-    optionElement.appendChild(labelElement);
+    const quizLabelElement = document.createElement('label');
+    quizLabelElement.setAttribute("for", quizInputElement.id);
+    quizLabelElement.innerHTML = opt;
     
-    quizElement.appendChild(optionElement);
-  })
-  
-  form.appendChild(quizElement);
+    quizOptionElement.appendChild(quizInputElement);
+    quizOptionElement.appendChild(quizLabelElement);
+    quizElement.appendChild(quizOptionElement);
+    quizzesElement.appendChild(quizElement);
+  });
 });
 
-const buttonElement = document.createElement('button');
-form.append(buttonElement);
-buttonElement.innerHTML = "Submit";
-buttonElement.type = "submit";
-
-const resultElement = document.createElement('div');
-resultElement.class = "result";
-resultElement.id = "result"
-form.insertAdjacentElement("beforeend", resultElement);
-
-form.addEventListener("submit", (event) => {
-  event.preventDefault();
-  const data = new FormData(form);
-  let result = 0;
-  
-  for (let [key, value] of data.entries()) {
-    if (value === originalAnswer[key]) {
-      result++;
-    }
+const quizHeadBtnElement = document.querySelector('.quiz_head_btn');
+quizHeadBtnElement.addEventListener("click", (event) => {
+  if (event.target.className === "reset") {
+    formElement.reset();
   }
-  
-  console.log(originalAnswer)
-  resultElement.innerHTML = `You scored ${result} out of 5`;
-
-});
-
-const quizElement = document.querySelector('.quiz_head');
-quizElement.addEventListener("click", (event) => {
-  if (event.target.className === "reset_button") {
-    form.reset();
-  }
-  if (event.target.className === "new_button") {
+  if (event.target.className === "new_quiz") {
     location.reload();
   }
-})
+});
+
+const userAnswers = document.querySelector('.my_answer');
+const quizResultElement = document.querySelector('.quiz_result');
+const quizQuestionsElement = document.querySelector('.quiz_questions');
+const replayElement = document.querySelector('.replay');
+
+replayElement.addEventListener("click", () => {
+  quizResultElement.classList.add("hidden");
+  quizQuestionsElement.classList.remove("hidden");
+  formElement.reset();
+});
+
+let score = 0;
+let answerIndex = 1;
+
+formElement.addEventListener("submit", (event) => {
+  event.preventDefault();
+  quizResultElement.classList.remove("hidden");
+  quizQuestionsElement.classList.add("hidden");
+  
+  const quizData = new FormData(formElement);
+  score = 0;
+  answerIndex = 1;
+  
+  for (let [key, value] of quizData.entries()) {
+    obj[key] = value;
+    
+    const myAnswerElement = document.querySelector(`.my_answer${answerIndex}`);
+    myAnswerElement.innerHTML = `Your Answer: ${value}`;
+    
+    const correctAnswer = displayQuiz[answerIndex - 1].correctAnswer;
+    if (value === correctAnswer) {
+      score++;
+    }
+    
+    answerIndex++;
+  }
+  
+  const quizScoreElement = document.querySelector('.quiz_score');
+  quizScoreElement.innerHTML = `You scored ${score} out of ${data.size}`;
+});
