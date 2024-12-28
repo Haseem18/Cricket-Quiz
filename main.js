@@ -182,6 +182,7 @@ replayElement.addEventListener("click", () => {
   quizResultElement.classList.add("hidden");
   quizQuestionsElement.classList.remove("hidden");
   formElement.reset();
+  location.reload();
 });
 
 let score = 0;
