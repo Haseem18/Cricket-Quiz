@@ -1,28 +1,43 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cricket Quiz</title>
   <link rel="stylesheet" href="./style.css">
 </head>
-
 <body>
-
-  <main>
-    <div class="quiz_container">
+  
+  <div id="quiz_container">
+    <div class="quiz_questions">
+      <div class="quiz_title">
         <h1>Cricket Quiz</h1>
-        <div class="quiz_head">
-          <button class="reset_button">Reset</button>
-          <button class="new_button">New Quiz</button>
-        </div>
-      <form id="quiz_form">
+      </div>
+      <div class="quiz_head_btn">
+        <button class="reset">Reset</button>
+        <button class="new_quiz">New Quiz</button>
+      </div>
+      <form>
+        
+      <div class="quizzes">
+      </div>
+      <button type="submit">Submit</button>
       </form>
     </div>
-  </main>
-
+    <div class="quiz_result hidden">
+      <div class="quiz_result_title">
+        <h1>Result</h1>
+      </div>
+      <div class="quiz_answers">
+      </div>
+     <div class="quiz_score">
+       <p></p>
+     </div>
+    <button class="replay">Replay Quiz</button>
+    </div>
+  </div>
+  
   <script src="./main.js"></script>
 </body>
-
 </html>
