@@ -202,7 +202,7 @@ formElement.addEventListener("submit", (event) => {
       score++;
     }
     const myAnswerElement = document.querySelector(`.my_answer${key}`);
-    myAnswerElement.innerHTML = `Your Answe ${value}`;
+    myAnswerElement.innerHTML = `Your Answer: ${value}`;
   }
   
   const quizScoreElement = document.querySelector('.quiz_score');
